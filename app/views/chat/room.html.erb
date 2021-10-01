@@ -3,8 +3,11 @@
   <div id="messages">
   </div>
 
-  <form class="chat-form-content">
+  <form id="message_form" class="chat-form-content">
+      <label type="text" for="sender">Remetente: </label>
+      <input type="text" id="sender" />
       <label type="text" for="message_to_sent">Mensagem: </label>
       <input type="text" id="message_to_sent" autocomplete="off" />
+      <input type="submit" value="Enviar" />
   </form>
 </div>
